@@ -1,0 +1,483 @@
+{
+	"info": {
+		"_postman_id": "99ed7586-14a0-486d-945b-5b61c3ed7db3",
+		"name": "Teste - Requisitos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Teste - Requisito 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0ae7f990-04d7-4fda-b462-9ba30ed01726",
+						"exec": [
+							"var schema = {",
+							"    \"type\": \"object\",",
+							"    \"properties\": {",
+							"        \"extenso\": { \"type\": \"string\" }",
+							"    }",
+							"};",
+							"",
+							"pm.test(\"o status é 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('schema é válido', function() {",
+							"   pm.response.to.have.jsonSchema(schema);",
+							"});",
+							"",
+							"pm.test(\"o valor extenso é o correto\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.extenso).to.eql(\"cinquenta e oito\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://177.71.114.188/58",
+					"protocol": "http",
+					"host": [
+						"177",
+						"71",
+						"114",
+						"188"
+					],
+					"path": [
+						"58"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste - Requisito 2 - 99999",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0ae7f990-04d7-4fda-b462-9ba30ed01726",
+						"exec": [
+							"var schema = {",
+							"    \"type\": \"object\",",
+							"    \"properties\": {",
+							"        \"extenso\": { \"type\": \"string\" }",
+							"    }",
+							"};",
+							"",
+							"pm.test(\"o status é 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('schema é válido', function() {",
+							"   pm.response.to.have.jsonSchema(schema);",
+							"});",
+							"",
+							"pm.test(\"o valor extenso é o correto\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.extenso).to.eql(\"noventa e nove mil e novecentos e noventa e nove\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://177.71.114.188/99999",
+					"protocol": "http",
+					"host": [
+						"177",
+						"71",
+						"114",
+						"188"
+					],
+					"path": [
+						"99999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste - Requisito 2 - (-99999)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0ae7f990-04d7-4fda-b462-9ba30ed01726",
+						"exec": [
+							"var schema = {",
+							"    \"type\": \"object\",",
+							"    \"properties\": {",
+							"        \"extenso\": { \"type\": \"string\" }",
+							"    }",
+							"};",
+							"",
+							"pm.test(\"o status é 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('schema é válido', function() {",
+							"   pm.response.to.have.jsonSchema(schema);",
+							"});",
+							"",
+							"pm.test(\"o valor extenso é o correto\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.extenso).to.eql(\"menos noventa e nove mil e novecentos e noventa e nove\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://177.71.114.188/-99999",
+					"protocol": "http",
+					"host": [
+						"177",
+						"71",
+						"114",
+						"188"
+					],
+					"path": [
+						"-99999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste - Requisito 3 - Inglês",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0ae7f990-04d7-4fda-b462-9ba30ed01726",
+						"exec": [
+							"var schema = {",
+							"    \"type\": \"object\",",
+							"    \"properties\": {",
+							"        \"full\": { \"type\": \"string\" }",
+							"    }",
+							"};",
+							"",
+							"pm.test(\"o status é 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('schema é válido', function() {",
+							"   pm.response.to.have.jsonSchema(schema);",
+							"});",
+							"",
+							"pm.test(\"o valor extenso é o correto\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.full).to.eql(\"fifty eight\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://177.71.114.188/en/58",
+					"protocol": "http",
+					"host": [
+						"177",
+						"71",
+						"114",
+						"188"
+					],
+					"path": [
+						"en",
+						"58"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste - Requisito 3 - Português",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0ae7f990-04d7-4fda-b462-9ba30ed01726",
+						"exec": [
+							"var schema = {",
+							"    \"type\": \"object\",",
+							"    \"properties\": {",
+							"        \"extenso\": { \"type\": \"string\" }",
+							"    }",
+							"};",
+							"",
+							"pm.test(\"o status é 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('schema é válido', function() {",
+							"   pm.response.to.have.jsonSchema(schema);",
+							"});",
+							"",
+							"pm.test(\"o valor extenso é o correto\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.extenso).to.eql(\"cinquenta e oito\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "7aa4067a-9c77-4b27-a176-fc6f0c2d592f",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://177.71.114.188/br/58",
+					"protocol": "http",
+					"host": [
+						"177",
+						"71",
+						"114",
+						"188"
+					],
+					"path": [
+						"br",
+						"58"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste - Requisito 4 - Letras na URI",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0ae7f990-04d7-4fda-b462-9ba30ed01726",
+						"exec": [
+							"var schema = {",
+							"    \"type\": \"object\",",
+							"    \"properties\": {",
+							"        \"extenso\": { \"type\": \"string\" }",
+							"    }",
+							"};",
+							"",
+							"pm.test(\"o status é 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('schema é válido', function() {",
+							"   pm.response.to.have.jsonSchema(schema);",
+							"});",
+							"",
+							"pm.test(\"o valor extenso é o correto\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.extenso).to.eql(\"Invalid data\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://177.71.114.188/pam",
+					"protocol": "http",
+					"host": [
+						"177",
+						"71",
+						"114",
+						"188"
+					],
+					"path": [
+						"pam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste - Requisito 4 - 999991",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0ae7f990-04d7-4fda-b462-9ba30ed01726",
+						"exec": [
+							"var schema = {",
+							"    \"type\": \"object\",",
+							"    \"properties\": {",
+							"        \"extenso\": { \"type\": \"string\" }",
+							"    }",
+							"};",
+							"",
+							"pm.test(\"o status é 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('schema é válido', function() {",
+							"   pm.response.to.have.jsonSchema(schema);",
+							"});",
+							"",
+							"pm.test(\"o valor extenso é o correto\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.extenso).to.eql(\"Invalid data\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://177.71.114.188/999991",
+					"protocol": "http",
+					"host": [
+						"177",
+						"71",
+						"114",
+						"188"
+					],
+					"path": [
+						"999991"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste - Requisito 4 - Número muito grande",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0ae7f990-04d7-4fda-b462-9ba30ed01726",
+						"exec": [
+							"var schema = {",
+							"    \"type\": \"object\",",
+							"    \"properties\": {",
+							"        \"extenso\": { \"type\": \"string\" }",
+							"    }",
+							"};",
+							"",
+							"pm.test(\"o status é 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('schema é válido', function() {",
+							"   pm.response.to.have.jsonSchema(schema);",
+							"});",
+							"",
+							"pm.test(\"o valor extenso é o correto\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.extenso).to.eql(\"Invalid data\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://177.71.114.188/9999911111111111",
+					"protocol": "http",
+					"host": [
+						"177",
+						"71",
+						"114",
+						"188"
+					],
+					"path": [
+						"9999911111111111"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "dafa48f8-d9ac-4c89-8955-c1c776a30c10",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "74d9e4ea-d12d-499c-9aef-6ac04bf9c145",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
