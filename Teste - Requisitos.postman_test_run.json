@@ -1,0 +1,679 @@
+{
+	"id": "494a5a2a-6b81-43e5-b064-9551da0a6673",
+	"name": "Teste - Requisitos",
+	"allTests": [],
+	"timestamp": "2021-08-13T22:26:03.882Z",
+	"collection_id": "99ed7586-14a0-486d-945b-5b61c3ed7db3",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "99ed7586-14a0-486d-945b-5b61c3ed7db3",
+		"name": "Teste - Requisitos",
+		"description": "",
+		"auth": null,
+		"events": [
+			{
+				"listen": "prerequest",
+				"script": {
+					"id": "dafa48f8-d9ac-4c89-8955-c1c776a30c10",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			},
+			{
+				"listen": "test",
+				"script": {
+					"id": "74d9e4ea-d12d-499c-9aef-6ac04bf9c145",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			}
+		],
+		"variables": [],
+		"order": [
+			"b0f91ac2-fd39-4ed2-b1bd-f3422072c6dd",
+			"6164b004-a3d2-4812-8435-94809e078b16",
+			"90c80ac7-41e0-45cd-8e59-34ee32c0bf00",
+			"58586da7-484b-4ef7-98a7-ff57dc82aba0",
+			"5764d969-fc5c-457f-8f41-4929ac0c7862",
+			"d7f527d7-bcfe-41d2-bfb5-7e281f279671",
+			"3c70e779-6f94-465e-bc93-eccc034573b5",
+			"8bc7e2c7-874e-40c1-ba31-1d6f22df9101"
+		],
+		"folders_order": [],
+		"owner": "0",
+		"permissions": {},
+		"favorite": true,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": null,
+	"results": [
+		{
+			"name": "Teste - Requisito 1",
+			"id": "b0f91ac2-fd39-4ed2-b1bd-f3422072c6dd",
+			"url": "http://177.71.114.188/58",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"error": null,
+				"name": "o status é 200",
+				"status": "pass",
+				"schema é válido": true,
+				"o valor extenso é o correto": true
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 1,
+					"fail": 0
+				},
+				"o valor extenso é o correto": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"104"
+			],
+			"allTests": [
+				{
+					"o status é 200": true,
+					"schema é válido": true,
+					"o valor extenso é o correto": true
+				}
+			],
+			"time": "104",
+			"totalRequestTime": "104",
+			"iterationResults": {}
+		},
+		{
+			"name": "Teste - Requisito 2 - 99999",
+			"id": "6164b004-a3d2-4812-8435-94809e078b16",
+			"url": "http://177.71.114.188/99999",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"error": null,
+				"name": "o status é 200",
+				"status": "pass",
+				"schema é válido": true,
+				"o valor extenso é o correto": true
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 1,
+					"fail": 0
+				},
+				"o valor extenso é o correto": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"83"
+			],
+			"allTests": [
+				{
+					"o status é 200": true,
+					"schema é válido": true,
+					"o valor extenso é o correto": true
+				}
+			],
+			"time": "83",
+			"totalRequestTime": "83",
+			"iterationResults": {}
+		},
+		{
+			"name": "Teste - Requisito 2 - (-99999)",
+			"id": "90c80ac7-41e0-45cd-8e59-34ee32c0bf00",
+			"url": "http://177.71.114.188/-99999",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"error": null,
+				"name": "o status é 200",
+				"status": "pass",
+				"schema é válido": true,
+				"o valor extenso é o correto": true
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 1,
+					"fail": 0
+				},
+				"o valor extenso é o correto": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"76"
+			],
+			"allTests": [
+				{
+					"o status é 200": true,
+					"schema é válido": true,
+					"o valor extenso é o correto": true
+				}
+			],
+			"time": "76",
+			"totalRequestTime": "76",
+			"iterationResults": {}
+		},
+		{
+			"name": "Teste - Requisito 3 - Inglês",
+			"id": "58586da7-484b-4ef7-98a7-ff57dc82aba0",
+			"url": "http://177.71.114.188/en/58",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"error": null,
+				"name": "o status é 200",
+				"status": "pass",
+				"schema é válido": true,
+				"o valor extenso é o correto": true
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 1,
+					"fail": 0
+				},
+				"o valor extenso é o correto": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"73"
+			],
+			"allTests": [
+				{
+					"o status é 200": true,
+					"schema é válido": true,
+					"o valor extenso é o correto": true
+				}
+			],
+			"time": "73",
+			"totalRequestTime": "73",
+			"iterationResults": {}
+		},
+		{
+			"name": "Teste - Requisito 3 - Português",
+			"id": "5764d969-fc5c-457f-8f41-4929ac0c7862",
+			"url": "http://177.71.114.188/br/58",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"error": null,
+				"name": "o status é 200",
+				"status": "pass",
+				"schema é válido": false,
+				"o valor extenso é o correto": false
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 0,
+					"fail": 1
+				},
+				"o valor extenso é o correto": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"82"
+			],
+			"allTests": [
+				{
+					"o status é 200": true,
+					"schema é válido": false,
+					"o valor extenso é o correto": false
+				}
+			],
+			"time": "82",
+			"totalRequestTime": "82",
+			"iterationResults": {}
+		},
+		{
+			"name": "Teste - Requisito 4 - Letras na URI",
+			"id": "d7f527d7-bcfe-41d2-bfb5-7e281f279671",
+			"url": "http://177.71.114.188/pam",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"error": null,
+				"name": "o status é 200",
+				"status": "pass",
+				"schema é válido": false,
+				"o valor extenso é o correto": false
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 0,
+					"fail": 1
+				},
+				"o valor extenso é o correto": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"77"
+			],
+			"allTests": [
+				{
+					"o status é 200": true,
+					"schema é válido": false,
+					"o valor extenso é o correto": false
+				}
+			],
+			"time": "77",
+			"totalRequestTime": "77",
+			"iterationResults": {}
+		},
+		{
+			"name": "Teste - Requisito 4 - 999991",
+			"id": "3c70e779-6f94-465e-bc93-eccc034573b5",
+			"url": "http://177.71.114.188/999991",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"error": null,
+				"name": "o status é 200",
+				"status": "pass",
+				"schema é válido": false,
+				"o valor extenso é o correto": false
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 0,
+					"fail": 1
+				},
+				"o valor extenso é o correto": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"83"
+			],
+			"allTests": [
+				{
+					"o status é 200": true,
+					"schema é válido": false,
+					"o valor extenso é o correto": false
+				}
+			],
+			"time": "83",
+			"totalRequestTime": "83",
+			"iterationResults": {}
+		},
+		{
+			"name": "Teste - Requisito 4 - Número muito grande",
+			"id": "8bc7e2c7-874e-40c1-ba31-1d6f22df9101",
+			"url": "http://177.71.114.188/9999911111111111",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"error": null,
+				"name": "o status é 200",
+				"status": "pass",
+				"schema é válido": false,
+				"o valor extenso é o correto": false
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 0,
+					"fail": 1
+				},
+				"o valor extenso é o correto": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"79"
+			],
+			"allTests": [
+				{
+					"o status é 200": true,
+					"schema é válido": false,
+					"o valor extenso é o correto": false
+				}
+			],
+			"time": "79",
+			"totalRequestTime": "79",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 16,
+	"totalFail": 8,
+	"totalTime": 657,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Teste - Requisito 1",
+			"id": "b0f91ac2-fd39-4ed2-b1bd-f3422072c6dd",
+			"url": "http://177.71.114.188/58",
+			"time": "2021-08-13T22:26:03.882Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 1,
+					"fail": 0
+				},
+				"o valor extenso é o correto": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Teste - Requisito 2 - 99999",
+			"id": "6164b004-a3d2-4812-8435-94809e078b16",
+			"url": "http://177.71.114.188/99999",
+			"time": "2021-08-13T22:26:03.882Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 1,
+					"fail": 0
+				},
+				"o valor extenso é o correto": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Teste - Requisito 2 - (-99999)",
+			"id": "90c80ac7-41e0-45cd-8e59-34ee32c0bf00",
+			"url": "http://177.71.114.188/-99999",
+			"time": "2021-08-13T22:26:03.882Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 1,
+					"fail": 0
+				},
+				"o valor extenso é o correto": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Teste - Requisito 3 - Inglês",
+			"id": "58586da7-484b-4ef7-98a7-ff57dc82aba0",
+			"url": "http://177.71.114.188/en/58",
+			"time": "2021-08-13T22:26:03.882Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 1,
+					"fail": 0
+				},
+				"o valor extenso é o correto": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "Teste - Requisito 3 - Português",
+			"id": "5764d969-fc5c-457f-8f41-4929ac0c7862",
+			"url": "http://177.71.114.188/br/58",
+			"time": "2021-08-13T22:26:03.882Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 0,
+					"fail": 1
+				},
+				"o valor extenso é o correto": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Teste - Requisito 4 - Letras na URI",
+			"id": "d7f527d7-bcfe-41d2-bfb5-7e281f279671",
+			"url": "http://177.71.114.188/pam",
+			"time": "2021-08-13T22:26:03.882Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 0,
+					"fail": 1
+				},
+				"o valor extenso é o correto": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Teste - Requisito 4 - 999991",
+			"id": "3c70e779-6f94-465e-bc93-eccc034573b5",
+			"url": "http://177.71.114.188/999991",
+			"time": "2021-08-13T22:26:03.882Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 0,
+					"fail": 1
+				},
+				"o valor extenso é o correto": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Teste - Requisito 4 - Número muito grande",
+			"id": "8bc7e2c7-874e-40c1-ba31-1d6f22df9101",
+			"url": "http://177.71.114.188/9999911111111111",
+			"time": "2021-08-13T22:26:03.882Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"o status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"schema é válido": {
+					"pass": 0,
+					"fail": 1
+				},
+				"o valor extenso é o correto": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		}
+	],
+	"synced": false
+}
